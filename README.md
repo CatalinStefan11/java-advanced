@@ -1,1 +1,1 @@
-# java-advanced
+# Java Advanced Features training & exercises for students that joined my classes at Software Development Academy
