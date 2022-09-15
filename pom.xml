@@ -12,7 +12,8 @@
   <modules>
     <module>jar-module</module>
     <module>enclosing-class</module>
-    <module>oop-master</module>
+    <module>section-1-oop</module>
+    <module>section-2</module>
   </modules>
 
   <dependencies>
