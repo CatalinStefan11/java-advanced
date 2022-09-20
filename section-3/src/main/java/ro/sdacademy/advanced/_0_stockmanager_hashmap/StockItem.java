@@ -1,4 +1,4 @@
-package ro.sdaacademy.advanced.hashmap;
+package ro.sdacademy.advanced._0_stockmanager_hashmap;
 
 public class StockItem  {
     private final String name;

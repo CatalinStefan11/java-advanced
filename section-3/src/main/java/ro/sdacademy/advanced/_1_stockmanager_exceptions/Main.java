@@ -1,7 +1,7 @@
-package ro.sdaacademy.advanced.hashmap;
+package ro.sdacademy.advanced._1_stockmanager_exceptions;
 
 public class Main {
-    private static StockList stockList = new StockList();
+    private static StockManager stockList = new StockManager();
 
     public static void main(String[] args) {
         /*
@@ -60,51 +60,52 @@ public class Main {
         System.out.println(stockList);
         
         
-        stockList.reserveStock("milk", 1000);
+//        stockList.reserveStock("milk", 100);
 
         System.out.println(stockList);
 
+        stockList.reserveStock("milk", 10000);
 
-        stockList.sellStock("milk", 1000);
 
-        System.out.println(stockList);
+        System.out.println("AFTER HANDLED EXCEPTION");
         
         
-  
+//        System.out.println(stockList);
+        
 
 
-        temp = new StockItem("eggs", 4.91, 250);
-        stockList.addStock(temp);
-
-        temp = new StockItem("cheese", 14.01, 357);
-        stockList.addStock(temp);
-
-        temp = new StockItem("chicken", 15.97, 125);
-        stockList.addStock(temp);
-
-        temp = new StockItem("beef", 21.19, 128);
-        stockList.addStock(temp);
-
-        temp = new StockItem("apple", 2.15, 369);
-        stockList.addStock(temp);
-
-        temp = new StockItem("banana", 1.93, 246);
-        stockList.addStock(temp);
-
-        temp = new StockItem("orange", 2.38, 229);
-        stockList.addStock(temp);
-
-        temp = new StockItem("tomato", 3.38, 364);
-        stockList.addStock(temp);
-
-        temp = new StockItem("potato", 2.05, 245);
-        stockList.addStock(temp);
-
-        temp = new StockItem("onion", 1.24, 212);
-        stockList.addStock(temp);
-
-        temp = new StockItem("lettuce", 2.22, 237);
-        stockList.addStock(temp);
+//        temp = new StockItem("eggs", 4.91, 250);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("cheese", 14.01, 357);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("chicken", 15.97, 125);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("beef", 21.19, 128);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("apple", 2.15, 369);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("banana", 1.93, 246);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("orange", 2.38, 229);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("tomato", 3.38, 364);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("potato", 2.05, 245);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("onion", 1.24, 212);
+//        stockList.addStock(temp);
+//
+//        temp = new StockItem("lettuce", 2.22, 237);
+//        stockList.addStock(temp);
 
         
 

@@ -1,12 +1,12 @@
-package ro.sdaacademy.advanced.hashmap;
+package ro.sdacademy.advanced._1_stockmanager_exceptions;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class StockList {
+public class StockManager {
   private final Map<String, StockItem> list;
 
-  public StockList() {
+  public StockManager() {
     this.list = new HashMap<>();
   }
 
@@ -32,7 +32,11 @@ public class StockList {
   public int reserveStock(String item, int quantity) {
     StockItem inStock = list.get(item);
     if (inStock != null && quantity > 0) {
-      return inStock.reserveStock(quantity);
+      try {
+        return inStock.reserveStock(quantity);
+      } catch (UnavailableStockException e) {
+        System.err.println(e.getMessage());
+      }
     }
     return 0;
   }
