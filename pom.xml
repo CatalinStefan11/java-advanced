@@ -15,6 +15,7 @@
     <module>section-1-oop</module>
     <module>section-2</module>
     <module>section-3</module>
+    <module>section-4</module>
   </modules>
 
   <dependencies>
