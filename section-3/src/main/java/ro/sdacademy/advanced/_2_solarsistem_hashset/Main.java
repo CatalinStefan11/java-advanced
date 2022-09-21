@@ -63,7 +63,7 @@ public class Main {
         In main create:
         - a static Map<HeavenlyBody.Key, HeavenlyBody> solarSystem - which will contain all the bodies in the solar system
         - a static Set<HeavenlyBody> planets - which will contain only planets from the solar system
-        - a static Set<HeavenlyBody> start - which will contain the starts from a solar sistem
+        - a static Set<HeavenlyBody> start - which will contain the stars from a solar system
 
       */
     
