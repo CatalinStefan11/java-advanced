@@ -1,7 +1,7 @@
-package ro.sdacademy.advanced._0_multithreading;
+package ro.sdacademy.advanced._0_multithreading._1_;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         /*
         Create and start threads.
         
@@ -30,13 +30,15 @@ public class Main {
 
         Thread t2 = new Thread() {
             public void run() {
-                account.deposit(203.75);
                 account.withdraw(100.00);
+                account.deposit(203.75);
             }
         };
 
         t1.start();
         t2.start();
+        
+        Thread.sleep(100);
 
         System.out.println(account);
         

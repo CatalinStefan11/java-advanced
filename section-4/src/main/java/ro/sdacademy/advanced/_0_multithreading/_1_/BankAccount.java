@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._0_multithreading;
+package ro.sdacademy.advanced._0_multithreading._1_;
 
 class BankAccount {
 
