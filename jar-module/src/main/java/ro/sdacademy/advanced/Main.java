@@ -5,8 +5,7 @@ public class Main {
   // run command
   //
   // java -Dproperty=MESSI -jar jar-module-1.0-SNAPSHOT.jar a b c
-  
-  
+
   private static int COUNTER = 0;
   
   public static void main(String[] args) {

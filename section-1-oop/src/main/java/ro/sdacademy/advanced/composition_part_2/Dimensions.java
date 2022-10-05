@@ -1,8 +1,5 @@
 package ro.sdacademy.advanced.composition_part_2;
 
-/**
- * Created by dev on 16/07/15.
- */
 public class Dimensions {
     private int width;
     private int height;

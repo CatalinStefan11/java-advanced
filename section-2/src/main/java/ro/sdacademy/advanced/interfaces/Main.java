@@ -24,11 +24,8 @@ public class Main {
         Also in the Main class, write a method that restores the values to a Saveable object
         e.g. calls the method from the interface for populating fields (see above).
 
-        Again, we are not going to use Java file I/O; instead use the readValues() method below to
-        simulate getting values from a file – this allows you to type as many values as your class
-        requires, and returns an ArrayList.
-        There is a whole Java I/O section later in the course where you will get to use files, etc.
         */
+        
         Player elvar = new Player("Elvar", 10, 20, 30, 40, 50);
         System.out.println(elvar);
         saveObject(elvar);
