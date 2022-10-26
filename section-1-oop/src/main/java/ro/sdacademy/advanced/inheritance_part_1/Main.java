@@ -12,8 +12,7 @@ public class Main {
   // Dog overrides the method eat
   // Dog also has another method called chew() which just print "Dog.chew() called"
 
-
-
+  
   public static void main(String[] args) {
     Animal animal = new Animal("Animal", 5, 5);
 
