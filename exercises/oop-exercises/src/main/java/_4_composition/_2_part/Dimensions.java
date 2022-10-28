@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced.composition_part_2;
+package _4_composition._2_part;
 
 public class Dimensions {
     private int width;

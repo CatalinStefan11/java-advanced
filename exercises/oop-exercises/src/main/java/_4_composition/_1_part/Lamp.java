@@ -1,8 +1,5 @@
-package ro.sdacademy.advanced.composition_part_1;
+package _4_composition._1_part;
 
-/**
- * Created by dev on 16/07/15.
- */
 public class Lamp {
     private String style;
     private boolean battery;

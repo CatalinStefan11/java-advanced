@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced.composition_part_1;
+package _4_composition._1_part;
 
 
 public class Bedroom {
