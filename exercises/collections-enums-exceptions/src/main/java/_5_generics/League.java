@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._2_generics;
+package _5_generics;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._2_generics;
+package _5_generics;
 
 public class FootballTeam extends Team<FootballTeam> {
     public FootballTeam(String name) {
