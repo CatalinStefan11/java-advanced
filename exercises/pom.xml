@@ -20,7 +20,8 @@
 
   <modules>
     <module>oop-exercises</module>
-    <module>collections</module>
+    <module>collections-enums-exceptions</module>
+    <module>multithreading-functional-IO</module>
   </modules>
   
 </project>

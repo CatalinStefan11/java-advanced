@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._1_functional;
+package _1_functional;
 
 import java.util.ArrayList;
 import java.util.Arrays;

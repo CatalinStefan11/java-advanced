@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._0_multithreading._2_;
+package _0_multithreading._2_;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

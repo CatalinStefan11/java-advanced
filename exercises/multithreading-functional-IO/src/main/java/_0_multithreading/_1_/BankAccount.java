@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._0_multithreading._1_;
+package _0_multithreading._1_;
 
 class BankAccount {
 
@@ -10,10 +10,12 @@ class BankAccount {
         this.balance = initialBalance;
     }
 
+    // add sync to make it thread safe
     public void deposit(double amount) {
         balance += amount;
     }
 
+    // add sync to make it thread safe
     public void withdraw(double amount) {
         balance -= amount;
     }

@@ -1,4 +1,4 @@
-package ro.sdacademy.advanced._0_multithreading._2_;
+package _0_multithreading._2_;
 
 public class Main {
 

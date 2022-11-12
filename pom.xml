@@ -14,7 +14,6 @@
     <module>exercises</module>
     <module>jar-module</module>
     <module>section-2</module>
-    <module>section-4</module>
   </modules>
   
   <properties>

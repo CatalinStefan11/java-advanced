@@ -1,0 +1,4 @@
+Amsterdam,1000000,Beautiful city with a lot of museums and tourist attractions.
+Barcelona,1600000,The capital of Catalonia. Home city of FC Barcelona.
+Los Angeles,3800000,A beautiful city known for its Hollywood film industry
+Kiev,2800000,The capital of a brave men state. They keep fighting for freedom.
