@@ -11,7 +11,7 @@ public class Main {
         - a getter for the name
         - 2 abstract methods - void eat() and void breath();
 
-        Create another abstract class Bird which extends from Animal and implements CanFly
+        Create another class Bird which extends from Animal and implements CanFly
         - the class should implement the abstract methods
 
         Create a class Dog which extends from animal and implements method eat() and breathe()

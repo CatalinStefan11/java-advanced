@@ -2,8 +2,7 @@ package _1_enclosing_class;
 
 
 /* 
-  Create a maven project
-  
+
   Create a class called EnclosingClass - this class should have a single field called counter (initialized with 0)
   The class should have a single method which is a getter for this counter.
   

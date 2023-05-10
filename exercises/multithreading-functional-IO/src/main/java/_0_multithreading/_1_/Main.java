@@ -28,7 +28,7 @@ public class Main {
         
         Hint: 
         - use synchronized keyword for the methods from BankAccount class
-        
+      
         */
         final BankAccount account = new BankAccount("12345-678", 1000.00);
 

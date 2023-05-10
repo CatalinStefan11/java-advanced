@@ -4,7 +4,7 @@ public class Main {
 
 
   // Create an Animal class that has a name which is a String, size which is an int, and weight which is an int also
-  // Generate setters and getters for each instance variable
+  // Write setters and getters for each instance variable and the constructor
   // Animal also contains a method eat() which just prints "Animal.eat() called"
   // 
   // Crete Dog class which extends from Animal
