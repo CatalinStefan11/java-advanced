@@ -13,7 +13,6 @@
     <module>class-examples</module>
     <module>exercises</module>
     <module>jar-module</module>
-    <module>section-2</module>
   </modules>
   
   <properties>

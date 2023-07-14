@@ -13,8 +13,8 @@ public class Main {
 
         Only teams of the same type should be added to any particular
         instance of the league class - the program should fail to compile
-        if an attempt is made to add an incompatible team.
-        */
+        if an attempt is made to add an incompatible team. 
+       */
         League<Team<SoccerTeam>> pl = new League<>("Premier League");
         League<Team<FootballTeam>> nfl = new League<>("National Football League");
         League<Team<BaseballTeam>> mlb = new League<>("Major League Baseball");

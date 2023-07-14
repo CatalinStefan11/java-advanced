@@ -12,7 +12,7 @@ public class Main {
 
   public static void main(String[] args) {
         /*
-        
+       
         
         Create an enum called BodyType which has the following values: STAR, PLANET, MOON, DWARF_PLANET;
         

@@ -2,7 +2,6 @@ package _5_enum._2_part;
 
 public class Main {
 
-
   public static void main(String[] args) {
     
     
@@ -18,7 +17,6 @@ public class Main {
 
     System.out.println("The following coffee " + americano + " has price: " + americano.getPrice()
         + " and description: " + americano.getDescription());
-    
     
   }
 }
